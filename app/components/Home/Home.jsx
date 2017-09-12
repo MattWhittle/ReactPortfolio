@@ -30,6 +30,8 @@ var Home = React.createClass({
                             <ul className="skillsList">
                                 <li>Photoshop</li>
                                 <li>Visual Studio Code</li>
+                                <li>Heroku</li>
+                                <li>GitHub</li>
                             </ul>
                         </div>
                     </div>
