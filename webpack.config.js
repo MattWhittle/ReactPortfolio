@@ -24,15 +24,6 @@ module.exports = {
       '$': 'jquery',
       'jQuery': 'jquery'
     }),
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        sassLoader: {
-          includePaths: [
-              path.resolve(__dirname, './node_modules/foundation-sites/scss')
-          ]
-        }
-      }
-    }),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false
