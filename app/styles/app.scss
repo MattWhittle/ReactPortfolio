@@ -1,0 +1,73 @@
+@import "base/variables";
+
+// foundation
+@import "base/foundation-settings";
+@import "base/foundation-icons";
+@import "foundation";
+@include foundation-everything;
+
+// Components
+@import "components/Home";
+
+// Nav
+.top-bar {
+    background-color: #002a2d;
+    #site-logo {
+        max-width:250px;
+    }
+    .top-bar-right {
+        margin-top: .8rem;
+    }
+    .menu {
+        font-size: 13px;
+        background: transparent;
+        a {
+            color: #ddd;
+            &:hover {
+                color:#fff;
+            }
+        }
+        
+    }
+}
+
+// Sticky Footer
+
+.app-body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+#footer {
+    text-align: center;
+    background: #242424;
+    color: #eee;
+    width: 100%;
+    padding: 20px;
+}
+
+// icon-default
+.social-icon {
+    font-size: 60px;
+    color: #ddd;
+    padding: 10px;
+    &:hover{
+        color: #fff;
+    }
+}
+
+//slide ins
+.slideInContent {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slideInCopy {
+    padding: 5%;
+}
+
