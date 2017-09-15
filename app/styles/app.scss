@@ -10,6 +10,7 @@
 
 // Components
 @import "components/Home";
+@import "components/Projects";
 
 // Nav
 .top-bar {
@@ -17,11 +18,11 @@
     #site-logo {
         max-width:250px;
     }
-    .top-bar-right {
-        margin-top: .8rem;
-    }
+    // .top-bar-right {
+    //     margin-top: .5rem;
+    // }
     .menu {
-        font-size: 13px;
+        font-size: 1.25rem;
         background: transparent;
         a {
             color: #ddd;
