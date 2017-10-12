@@ -89,3 +89,22 @@ h1,h2,h3,h4,h5 {
     padding: 5%;
 }
 
+.contact-page {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 1rem auto;
+    border: 2px solid #eee;
+    .contact-info {
+        margin: 0 auto 2.5rem auto;
+    }
+    .social-icon {
+        font-size: 3rem;
+        color: #aaa;
+        padding: 10px;
+        &:hover{
+            color: #002a2d;
+        }
+    }
+}
+
