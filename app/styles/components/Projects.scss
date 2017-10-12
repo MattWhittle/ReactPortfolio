@@ -2,5 +2,10 @@
     width: 100%;
     max-width: 1000px;
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem auto;
+    border: 2px solid #eee;
+}
+
+.project-image {
+    border-left: 2px solid #ddd;
 }
