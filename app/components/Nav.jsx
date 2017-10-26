@@ -17,7 +17,6 @@ var Nav = React.createClass({
                     <div className="top-bar-right">
                         <ul className="vertical medium-horizontal menu">
                             <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink></li>
-                            <li><Link to="/projects" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Projects</Link></li>
                             <li><Link to="/contact" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Contact</Link></li>
                         
                         </ul>
